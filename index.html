@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title>Tetris Battle</title>
+    <link rel="shortcut icon" href="pic/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <template id="player-template">
+        <div class="player">
+            <div class="score"></div>
+            <canvas class="tetris" width="240" height="400"></canvas>
+        </div>
+    </template>
+
+    <script src="client/connection-manager.js"></script>
+    <script src="client/tetris-manager.js"></script>
+
+    <script src="client/events.js"></script>
+    <script src="client/arena.js"></script>
+    <script src="client/player.js"></script>
+    <script src="client/tetris.js"></script>
+    <script src="client/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+<footer class="page-footer">
+    <div class="container">
+        © 2018 Semester Pendek
+        <a class="grey-text text-lighten-4 right" href="control.html">How to Play</a>
+    </div>
+</footer>
+</html>

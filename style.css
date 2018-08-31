@@ -1,0 +1,33 @@
+body {
+    background-image: url("pic/ice.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    font-family: Quicksand;
+    font-weight: 700;
+ }
+
+.player {
+    flex: 1 1 auto;
+}
+
+.player.local canvas {
+    border-color: #FF6347;
+}
+
+canvas {
+    border: solid .2em #707070;
+    height: 80vh;
+}
+.page-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px; 
+    padding-top: 10px;
+    text-align: center;
+}
